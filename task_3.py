@@ -32,7 +32,7 @@ company = {"WalMart": 524.000,
            "BP": 278.400,
            "Volkswagen": 275.200,
            "Exxon Mobil": 265.700}
-# сложность O(N*Log)
+# сложность O(N*LogN)
 max_val = list(company.items())
 max_val.sort(key=lambda s: s[1], reverse=True)
 for s in range(3):
